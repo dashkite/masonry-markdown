@@ -1,0 +1,41 @@
+{
+  "name": "@dashkite/masonry-markdown",
+  "version": "0.0.0",
+  "description": "Masonry extension for transforming markdown into HTML",
+  "keywords": [],
+  "homepage": "https://github.com/dashkite/masonry-markdown#readme",
+  "bugs": {
+    "url": "https://github.com/dashkite/masonry-markdown/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashkite/masonry-markdown.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Daniel Yoder",
+  "exports": {
+    ".": {
+      "browser": "./build/browser/src/index.js",
+      "node": "./build/node/src/index.js"
+    }
+  },
+  "main": "build/node/src/index.js",
+  "files": [
+    "build/browser/src",
+    "build/node/src"
+  ],
+  "scripts": {
+    "test": "genie test",
+    "build": "genie build"
+  },
+  "devDependencies": {
+    "@dashkite/amen": "^0.2.0",
+    "@dashkite/amen-console": "^0.0.2",
+    "@dashkite/assert": "^0.1.4",
+    "@dashkite/genie": "link:../genie"
+  },
+  "dependencies": {
+    "@dashkite/genie-coffee": "link:../genie-coffee",
+    "marked": "^8.0.0"
+  }
+}
