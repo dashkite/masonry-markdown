@@ -1,5 +1,7 @@
 import marked from "marked"
 
-markdown = ({input}) -> marked input
+# TODO support presets with masonry-export?
 
-export {markdown}
+markdown = ({ input }) -> marked input
+
+export { markdown }
