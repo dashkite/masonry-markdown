@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "hello.js",
+  "sourceRoot": "/",
+  "sources": [
+    "hello.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,OAAA;EAAS,WAAT;CAAA,MAAA;;AACA,OAAO,CAAC,GAAR,CAAY,aAAZ;;AACA,OAAO,CAAC,GAAR,CAAY,WAAW,CAAC,GAAZ,CAAA,CAAZ",
+  "sourcesContent": [
+    "import { performance } from \"perf_hooks\"\nconsole.log \"Hello World\"\nconsole.log performance.now()\n"
+  ]
+}
