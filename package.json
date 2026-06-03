@@ -30,37 +30,35 @@
     "release": "genie release"
   },
   "devDependencies": {
-    "@dashkite/amen": "^0.5.0",
-    "@dashkite/amen-console": "^0.4.0",
-    "@dashkite/assert": "^0.3.0",
-    "@dashkite/genie": "^0.20.26",
-    "@dashkite/genie-clean": "^0.9.0",
-    "@dashkite/genie-coffee": "^0.9.0",
-
-    "@dashkite/genie-release": "^0.5.0",
-    "@google/gemini-cli": "^0.35.3",
-    "coffeescript": "^2.7.0"
-
+    "@dashkite/amen": "0.5.0",
+    "@dashkite/amen-console": "0.4.0",
+    "@dashkite/assert": "0.3.0",
+    "@dashkite/genie": "0.20.26",
+    "@dashkite/genie-clean": "0.9.0",
+    "@dashkite/genie-coffee": "0.9.0",
+    "@dashkite/genie-release": "0.5.0",
+    "@google/gemini-cli": "0.35.3",
+    "coffeescript": "2.7.0"
   },
   "dependencies": {
     "@dashkite/joy": "link:../joy",
-    "@shikijs/rehype": "^4.0.2",
+    "@shikijs/rehype": "4.0.2",
     "comrak": "0.48.0-rc.0",
-    "rehype-autolink-headings": "^7.1.0",
-    "rehype-katex": "^7.0.1",
-    "rehype-raw": "^7.0.0",
-    "rehype-sanitize": "^6.0.0",
-    "rehype-slug": "^6.0.0",
-    "rehype-stringify": "^10.0.1",
-    "remark-directive": "^4.0.0",
-    "remark-gfm": "^4.0.1",
-    "remark-math": "^6.0.0",
-    "remark-parse": "^11.0.0",
-    "remark-rehype": "^11.1.2",
-    "remark-supersub": "^1.0.0",
-    "shiki": "^4.0.2",
-    "unified": "^11.0.5",
-    "unist-util-visit": "^5.1.0",
-    "xxhash-wasm": "^1.1.0"
+    "rehype-autolink-headings": "7.1.0",
+    "rehype-katex": "7.0.1",
+    "rehype-raw": "7.0.0",
+    "rehype-sanitize": "6.0.0",
+    "rehype-slug": "6.0.0",
+    "rehype-stringify": "10.0.1",
+    "remark-directive": "4.0.0",
+    "remark-gfm": "4.0.1",
+    "remark-math": "6.0.0",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "remark-supersub": "1.0.0",
+    "shiki": "4.0.2",
+    "unified": "11.0.5",
+    "unist-util-visit": "5.1.0",
+    "xxhash-wasm": "1.1.0"
   }
 }
