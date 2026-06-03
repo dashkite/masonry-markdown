@@ -41,7 +41,7 @@
     "coffeescript": "2.7.0"
   },
   "dependencies": {
-    "@dashkite/joy": "link:../joy",
+    "@dashkite/joy": "^0.12.40",
     "@shikijs/rehype": "4.0.2",
     "comrak": "0.48.0-rc.0",
     "rehype-autolink-headings": "7.1.0",
